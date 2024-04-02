@@ -1,0 +1,95 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Main Administrator",
+            "email": "admin@admin.com",
+            "password": "0123456789",
+            "role": "admin",
+            "phoneNumber": "+6281574299657",
+            "address": "Jl. Haji Muhi No. 13"
+        },
+        {
+            "id": 2,
+            "username": "Maryamah Karparov",
+            "email": "mkarp@gmail.com",
+            "password": "K4rp4R0v",
+            "role": "user",
+            "phoneNumber": "+6281348697784",
+            "address": "Jl. Mannga 13 No. 78"
+        }
+    ],
+    "menu": [
+        {
+            "id": 1,
+            "name": "HOKA HEMAT 1",
+            "japaneseName": "お得なセット",
+            "description": "HokBen special rice, salad, Ekkado and 3 Egg Chicken Roll *Salad for dine in only.",
+            "price": 27500,
+            "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/f0b9d580d9386a60506086a819fd1de4-1660019294911",
+            "authorId": 1,
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "name": "Premium Set Seafood",
+            "japaneseName": "プレミアムセットシーフー",
+            "description": "Rice, Beef Teriyaki / Yakiniku, Ebi Furai 2pcs, Shrimp Roll (Tori Ball), Ekaddo (Ebi Furai), Clear Soup, Salad dan Ocha/Aqua *Salad & Soup for dine in only.",
+            "price": 64000,
+            "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/a1b51c7a2dbd0c47279f3228ddaa215e-1660018909657",
+            "authorId": 1,
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "name": "Ogura",
+            "japaneseName": "小倉アイス",
+            "description": "Special dessert made of red beans served with simple syrup, coconut milk and shaved ice.",
+            "price": 14000,
+            "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/ad89d4f03722bd1adb15e6a6e2d044b5-1660030681385",
+            "authorId": 1,
+            "categoryId": 5
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "Set Menu"
+        },
+        {
+            "id": 2,
+            "name": "Main Menu"
+        },
+        {
+            "id": 3,
+            "name": "Fried Menu"
+        },
+        {
+            "id": 4,
+            "name": "Soup & Sukiyaki"
+        },
+        {
+            "id": 5,
+            "name": "Desserts"
+        },
+        {
+            "id": 6,
+            "name": "Snacks"
+        },
+        {
+            "id": 7,
+            "name": "Beverages"
+        },
+        {
+            "id": 8,
+            "name": "Side Dish"
+        }
+    ],
+    "ingredients": [
+        {
+            "id": 1,
+            "itemId": 1,
+            "name": "Rice: carrot, radishe, chicken, egg, flour"
+        }
+    ]
+}
